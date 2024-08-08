@@ -1,0 +1,110 @@
+body{
+    background-color: lightyellow !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-img-top {
+            border-top-left-radius: calc(.25rem - 1px);
+            border-top-right-radius: calc(.25rem - 1px);
+        }
+        .card-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title .rating {
+            background-color: green;
+            color: white;
+            padding: 0.2em 0.5em;
+            border-radius: 0.25em;
+            font-size: 0.8em;
+        }
+        .card-text .price {
+            color: gray;
+            font-size: 0.9em;
+        }
+        .card-text .distance {
+            color: gray;
+            font-size: 0.9em;
+        }
+        .card-text .close-time {
+            color: red;
+            font-size: 0.9em;
+        }
+        *{
+           /* border: 1px solid white;  */
+            padding: 0;
+            margin: 0%  ;
+        }
+        img:active {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  
+}
+/* body{
+  background-color: gray;
+} */
+a{
+    color: black;
+    text-decoration: none !important;
+}
+img.abcd {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    filter: opacity(0.1);
+}
+
+.sec_card {
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    bottom: 0px;
+    color: white !important;
+}
+/* *{
+    border: 1px solid black;
+} */
+
+.color,a,small{
+    color: rgb(130, 130, 130) !important;
+
+}
+*{
+    text-transform: capitalize;
+}
+.breadcrumb {
+    background-color: none !important;
+}
+.accordion-button:focus, 
+.accordion-button:not(.collapsed) {
+    background-color: inherit !important; /* This keeps the original background color */
+    box-shadow: none; /* Removes the outline/shadow */
+}
+
+
+
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust scrollbar width */
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Handle (draggable part) of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Darker gray handle */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #f1f1f1; /* Adds padding between handle and track */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Even darker gray on hover */
+}
+
